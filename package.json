@@ -1,0 +1,8 @@
+{
+  "name": "kirbymix",
+  "description": "Use Laravel Mix with Kirby",
+  "author": "Marijn Roovers <marijn@mrfd.nl>",
+  "version": "0.1.0",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}
