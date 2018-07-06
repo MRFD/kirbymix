@@ -38,7 +38,7 @@ class CSS extends \Kirby\Component\CSS
         $file = kirby()->roots()->index() . DS . $url;
         if (file_exists($file)) {
             $publicPath = c::get('kirbymix.publicpath', 'assets');
-            $path = preg_replace("/(\/{$publicPath}|{$publicPath})/i", '', $path);
+            $path = preg_replace("/(\/{$publicPath}|{$publicPath})/i", '', $url);
             if (array_key_exists($path, $manifest)) {
                 $url = $publicPath . $manifest[$path];
             }
