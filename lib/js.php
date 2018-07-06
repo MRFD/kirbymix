@@ -38,7 +38,7 @@ class JS extends \Kirby\Component\JS
         $file = kirby()->roots()->index() . DS . $src;
         if (file_exists($file)) {
             $publicPath = c::get('kirbymix.publicpath', 'assets');
-            $path = preg_replace("/(\/{$publicPath}|{$publicPath})/i", '', $path);
+            $path = preg_replace("/(\/{$publicPath}|{$publicPath})/i", '', $src);
             if (array_key_exists($path, $manifest)) {
                 $src = $publicPath . $manifest[$path];
             }
