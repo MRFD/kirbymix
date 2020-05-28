@@ -1,7 +1,10 @@
 # Kirby Mix Plugin
 
-This plugin is made for [Kirby](http://getkirby.com) V2 in combination with [Laravel Mix](https://laravel-mix.com). This plugin extends the use of the Kirby `js()` and the `css()` helper in combination with the Laravel Mix `mix.version()` option. To enable the plugin, use the following line in your `config.php`:
 **Note:** A Laravel Mix plugin for Kirby 3 can be found [here](https://github.com/MRFD/kirby-mix).
+
+---
+
+This plugin is made for [Kirby](http://getkirby.com) V2 in combination with [Laravel Mix](https://laravel-mix.com). This plugin extends the use of the Kirby `js()` and the `css()` helper in combination with the Laravel Mix `mix.version()` option. To enable the plugin, use the following line in your `config.php`:
 
 ```php
 c::set('kirbymix', true);
